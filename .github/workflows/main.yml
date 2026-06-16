@@ -1,0 +1,16 @@
+CONFIG_ENV=config.env
+
+KERNEL_SOURCE=https://github.com/MiCode/Xiaomi_Kernel_OpenSource
+KERNEL_SOURCE_BRANCH=curtana-r-oss
+KERNEL_CONFIG=curtana_user_defconfig
+KERNEL_IMAGE_NAME=Image.gz-dtb
+ARCH=arm64
+SUBARCH=arm64
+
+ADD_LOCALVERSION_TO_FILENAME=false
+ENABLE_KERNELSU=true
+
+# Clang
+USE_CUSTOM_CLANG=false
+CUSTOM_CLANG_SOURCE=
+CUSTOM_CLANG_BRANCH=
